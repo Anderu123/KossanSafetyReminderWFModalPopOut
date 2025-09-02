@@ -1,0 +1,16 @@
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\obj\Debug\net9.0-windows\SafetyReminderWF.DataEntryForm.resources
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\obj\Debug\net9.0-windows\SafetyReminderWF.csproj.GenerateResource.cache
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\obj\Debug\net9.0-windows\SafetyReminderWF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\obj\Debug\net9.0-windows\SafetyReminderWF.AssemblyInfoInputs.cache
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\obj\Debug\net9.0-windows\SafetyReminderWF.AssemblyInfo.cs
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\obj\Debug\net9.0-windows\SafetyReminderWF.csproj.CoreCompileInputs.cache
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\bin\Debug\net9.0-windows\SafetyReminderWF.exe
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\bin\Debug\net9.0-windows\SafetyReminderWF.deps.json
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\bin\Debug\net9.0-windows\SafetyReminderWF.runtimeconfig.json
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\bin\Debug\net9.0-windows\SafetyReminderWF.dll
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\bin\Debug\net9.0-windows\SafetyReminderWF.pdb
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\obj\Debug\net9.0-windows\SafetyReminderWF.dll
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\obj\Debug\net9.0-windows\refint\SafetyReminderWF.dll
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\obj\Debug\net9.0-windows\SafetyReminderWF.pdb
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\obj\Debug\net9.0-windows\SafetyReminderWF.genruntimeconfig.cache
+C:\Users\andrew.tan\Desktop\SafetyReminderWF\SafetyReminderWF\obj\Debug\net9.0-windows\ref\SafetyReminderWF.dll
