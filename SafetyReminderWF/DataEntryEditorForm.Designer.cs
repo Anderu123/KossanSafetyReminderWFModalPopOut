@@ -1,4 +1,8 @@
-﻿namespace SafetyReminderWF
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+
+namespace SafetyReminderWF
 {
     partial class DataEntryEditorForm
     {
@@ -31,8 +35,8 @@
             labeFreq = new Label();
             numericUpDown1 = new NumericUpDown();
             tableLayoutPanel1 = new TableLayoutPanel();
-            txtAssess = new TextBox();
             labelAssess = new Label();
+            txtAssess = new TextBox();
             labelCurrent = new Label();
             dateTimePicker1 = new DateTimePicker();
             labelUpcoming = new Label();
@@ -40,33 +44,39 @@
             labelFee = new Label();
             labelReminder = new Label();
             labelRemark = new Label();
-            numericUpDown2 = new NumericUpDown();
-            txtRemark = new TextBox();
             checkBox1 = new CheckBox();
+            panel1 = new Panel();
+            OKButton = new Button();
+            CancelButton = new Button();
+            txtRemark = new TextBox();
+            numericUpDown2 = new NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             tableLayoutPanel1.SuspendLayout();
+            panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
             SuspendLayout();
             // 
             // labeFreq
             // 
             labeFreq.AutoSize = true;
-            labeFreq.Location = new Point(3, 64);
+            labeFreq.Location = new Point(4, 57);
             labeFreq.Name = "labeFreq";
             labeFreq.Size = new Size(62, 15);
             labeFreq.TabIndex = 1;
             labeFreq.Text = "Frequency";
-            labeFreq.Click += this.label2_Click;
+            labeFreq.UseWaitCursor = true;
             // 
             // numericUpDown1
             // 
-            numericUpDown1.Location = new Point(101, 67);
+            numericUpDown1.Location = new Point(96, 60);
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(120, 23);
             numericUpDown1.TabIndex = 4;
+            numericUpDown1.UseWaitCursor = true;
             // 
             // tableLayoutPanel1
             // 
+            tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 12.2807016F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 87.7193F));
@@ -81,10 +91,9 @@
             tableLayoutPanel1.Controls.Add(labelFee, 0, 4);
             tableLayoutPanel1.Controls.Add(labelReminder, 0, 5);
             tableLayoutPanel1.Controls.Add(labelRemark, 0, 6);
-            tableLayoutPanel1.Controls.Add(numericUpDown2, 1, 4);
-            tableLayoutPanel1.Controls.Add(txtRemark, 1, 6);
             tableLayoutPanel1.Controls.Add(checkBox1, 1, 5);
-            tableLayoutPanel1.Dock = DockStyle.Fill;
+            tableLayoutPanel1.Controls.Add(panel1, 3, 6);
+            tableLayoutPanel1.Controls.Add(numericUpDown2, 1, 4);
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 7;
@@ -95,121 +104,167 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.285306F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.285306F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2881651F));
-            tableLayoutPanel1.Size = new Size(800, 450);
+            tableLayoutPanel1.Size = new Size(747, 394);
             tableLayoutPanel1.TabIndex = 5;
-            tableLayoutPanel1.Paint += this.tableLayoutPanel1_Paint;
-            // 
-            // txtAssess
-            // 
-            txtAssess.Location = new Point(101, 3);
-            txtAssess.Name = "txtAssess";
-            txtAssess.Size = new Size(213, 23);
-            txtAssess.TabIndex = 2;
+            tableLayoutPanel1.UseWaitCursor = true;
             // 
             // labelAssess
             // 
             labelAssess.AutoSize = true;
             labelAssess.Dock = DockStyle.Fill;
-            labelAssess.Location = new Point(3, 0);
+            labelAssess.Location = new Point(4, 1);
             labelAssess.Name = "labelAssess";
-            labelAssess.Size = new Size(92, 64);
+            labelAssess.Size = new Size(85, 55);
             labelAssess.TabIndex = 0;
             labelAssess.Text = "Assessment";
-            labelAssess.Click += this.label1_Click;
+            labelAssess.UseWaitCursor = true;
+            // 
+            // txtAssess
+            // 
+            txtAssess.Location = new Point(96, 4);
+            txtAssess.Name = "txtAssess";
+            txtAssess.Size = new Size(213, 23);
+            txtAssess.TabIndex = 2;
+            txtAssess.UseWaitCursor = true;
             // 
             // labelCurrent
             // 
             labelCurrent.AutoSize = true;
-            labelCurrent.Location = new Point(3, 128);
+            labelCurrent.Location = new Point(4, 113);
             labelCurrent.Name = "labelCurrent";
             labelCurrent.Size = new Size(74, 15);
             labelCurrent.TabIndex = 5;
             labelCurrent.Text = "Current Date";
+            labelCurrent.UseWaitCursor = true;
             // 
             // dateTimePicker1
             // 
             dateTimePicker1.CustomFormat = "dd/MM/yyyy";
-            dateTimePicker1.Location = new Point(101, 131);
+            dateTimePicker1.Location = new Point(96, 116);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(200, 23);
             dateTimePicker1.TabIndex = 6;
+            dateTimePicker1.UseWaitCursor = true;
             // 
             // labelUpcoming
             // 
             labelUpcoming.AutoSize = true;
-            labelUpcoming.Location = new Point(3, 192);
+            labelUpcoming.Location = new Point(4, 169);
             labelUpcoming.Name = "labelUpcoming";
-            labelUpcoming.Size = new Size(90, 15);
+            labelUpcoming.Size = new Size(66, 30);
             labelUpcoming.TabIndex = 7;
             labelUpcoming.Text = "Upcoming Date";
-            labelUpcoming.Click += this.label1_Click_1;
+            labelUpcoming.UseWaitCursor = true;
             // 
             // dateTimePicker2
             // 
             dateTimePicker2.CustomFormat = "dd/MM/yyyy";
-            dateTimePicker2.Location = new Point(101, 195);
+            dateTimePicker2.Location = new Point(96, 172);
             dateTimePicker2.Name = "dateTimePicker2";
             dateTimePicker2.Size = new Size(200, 23);
             dateTimePicker2.TabIndex = 8;
-            dateTimePicker2.ValueChanged += this.dateTimePicker2_ValueChanged;
+            dateTimePicker2.UseWaitCursor = true;
             // 
             // labelFee
             // 
             labelFee.AutoSize = true;
-            labelFee.Location = new Point(3, 256);
+            labelFee.Location = new Point(4, 225);
             labelFee.Name = "labelFee";
             labelFee.Size = new Size(25, 15);
             labelFee.TabIndex = 9;
             labelFee.Text = "Fee";
-            labelFee.Click += this.label1_Click_2;
+            labelFee.UseWaitCursor = true;
             // 
             // labelReminder
             // 
             labelReminder.AutoSize = true;
-            labelReminder.Location = new Point(3, 320);
+            labelReminder.Location = new Point(4, 281);
             labelReminder.Name = "labelReminder";
             labelReminder.Size = new Size(58, 30);
             labelReminder.TabIndex = 10;
             labelReminder.Text = "Check Reminder";
-            labelReminder.Click += this.label1_Click_3;
+            labelReminder.UseWaitCursor = true;
             // 
             // labelRemark
             // 
             labelRemark.AutoSize = true;
-            labelRemark.Location = new Point(3, 384);
+            labelRemark.Location = new Point(4, 337);
             labelRemark.Name = "labelRemark";
             labelRemark.Size = new Size(47, 15);
             labelRemark.TabIndex = 12;
             labelRemark.Text = "Remark";
-            // 
-            // numericUpDown2
-            // 
-            numericUpDown2.DecimalPlaces = 2;
-            numericUpDown2.Location = new Point(101, 259);
-            numericUpDown2.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
-            numericUpDown2.Name = "numericUpDown2";
-            numericUpDown2.Size = new Size(120, 23);
-            numericUpDown2.TabIndex = 13;
-            // 
-            // txtRemark
-            // 
-            txtRemark.Location = new Point(101, 387);
-            txtRemark.Name = "txtRemark";
-            txtRemark.Size = new Size(213, 23);
-            txtRemark.TabIndex = 14;
+            labelRemark.UseWaitCursor = true;
             // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(101, 323);
+            checkBox1.Location = new Point(96, 284);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(103, 19);
             checkBox1.TabIndex = 15;
             checkBox1.Text = "Reminder Sent";
             checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.UseWaitCursor = true;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(OKButton);
+            panel1.Controls.Add(CancelButton);
+            panel1.Controls.Add(txtRemark);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(96, 340);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(647, 50);
+            panel1.TabIndex = 16;
+            panel1.UseWaitCursor = true;
+            // 
+            // OKButton
+            // 
+            OKButton.Dock = DockStyle.Right;
+            OKButton.Location = new Point(497, 0);
+            OKButton.Name = "OKButton";
+            OKButton.Size = new Size(75, 50);
+            OKButton.TabIndex = 15;
+            OKButton.Text = "OK";
+            OKButton.UseVisualStyleBackColor = true;
+            OKButton.UseWaitCursor = true;
+            OKButton.Click += OKButton_Click;
+            // 
+            // CancelButton
+            // 
+            CancelButton.AccessibleRole = AccessibleRole.None;
+            CancelButton.Dock = DockStyle.Right;
+            CancelButton.ImageAlign = ContentAlignment.MiddleRight;
+            CancelButton.Location = new Point(572, 0);
+            CancelButton.Name = "CancelButton";
+            CancelButton.Size = new Size(75, 50);
+            CancelButton.TabIndex = 6;
+            CancelButton.Text = "Cancel";
+            CancelButton.UseVisualStyleBackColor = true;
+            CancelButton.UseWaitCursor = true;
+            CancelButton.Click += CancelButton_Click;
+            // 
+            // txtRemark
+            // 
+            txtRemark.Location = new Point(3, 3);
+            txtRemark.Name = "txtRemark";
+            txtRemark.Size = new Size(213, 23);
+            txtRemark.TabIndex = 14;
+            txtRemark.UseWaitCursor = true;
+            // 
+            // numericUpDown2
+            // 
+            numericUpDown2.DecimalPlaces = 2;
+            numericUpDown2.Location = new Point(96, 228);
+            numericUpDown2.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
+            numericUpDown2.Name = "numericUpDown2";
+            numericUpDown2.Size = new Size(120, 23);
+            numericUpDown2.TabIndex = 13;
+            numericUpDown2.UseWaitCursor = true;
             // 
             // DataEntryEditorForm
             // 
+            AcceptButton = OKButton;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
@@ -221,10 +276,11 @@
             StartPosition = FormStartPosition.CenterParent;
             Text = "Form1";
             UseWaitCursor = true;
-            Load += this.DataEntryEditorForm_Load;
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
             ResumeLayout(false);
         }
@@ -245,5 +301,8 @@
         private NumericUpDown numericUpDown2;
         private TextBox txtRemark;
         private CheckBox checkBox1;
+        private Button CancelButton;
+        private Panel panel1;
+        private Button OKButton;
     }
 }

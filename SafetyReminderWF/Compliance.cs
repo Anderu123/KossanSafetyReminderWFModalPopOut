@@ -15,7 +15,7 @@ namespace SafetyReminderWF
         public DateTime? CurrentDT { get; set; }
         public DateTime? UpComingDT { get; set; }
 
-        public decimal? fee { get; set; }
+        public decimal? Fee { get; set; }
         public bool ReminderSent { get; set; }
         public string? Remark { get; set; }
 

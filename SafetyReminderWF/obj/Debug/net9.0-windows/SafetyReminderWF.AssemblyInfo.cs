@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SafetyReminderWF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b262d0fa84d06b6c6520207904125d0196693a13")]
 [assembly: System.Reflection.AssemblyProductAttribute("SafetyReminderWF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SafetyReminderWF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
