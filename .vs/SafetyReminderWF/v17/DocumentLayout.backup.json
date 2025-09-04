@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\dataentryeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\dataentryeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\safetyreminderwf\\dataentryeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\dataentryeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -74,8 +74,7 @@
               "RelativeToolTip": "SafetyReminderWF\\AppDbContext.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA5wAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:46:14.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T07:46:14.128Z"
             },
             {
               "$type": "Document",
@@ -85,7 +84,7 @@
               "RelativeDocumentMoniker": "SafetyReminderWF\\DataEntryForm.cs",
               "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryForm.cs",
               "RelativeToolTip": "SafetyReminderWF\\DataEntryForm.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAmwL0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAmwMAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T05:55:35.22Z",
               "EditorCaption": ""
@@ -112,8 +111,7 @@
               "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryEditorForm.cs [Design]",
               "RelativeToolTip": "SafetyReminderWF\\DataEntryEditorForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T07:23:10.662Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-02T07:23:10.662Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "SafetyReminderWF\\DataEntryForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T05:55:38.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T05:55:38.032Z"
             },
             {
               "$type": "Document",
@@ -185,8 +182,7 @@
               "RelativeToolTip": "SafetyReminderWF\\DataEntryEditorForm.Designer.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAgwBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T08:46:55.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T08:46:55.059Z"
             },
             {
               "$type": "Document",
@@ -197,8 +193,7 @@
               "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryEditorForm.resx",
               "RelativeToolTip": "SafetyReminderWF\\DataEntryEditorForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-03T00:37:35.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T00:37:35.263Z"
             },
             {
               "$type": "Document",

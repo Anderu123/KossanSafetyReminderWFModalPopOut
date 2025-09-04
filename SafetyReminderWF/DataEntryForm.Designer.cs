@@ -36,7 +36,6 @@
             frequencyDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             currentDTDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             upComingDTDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            feeDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             reminderSentDataGridViewCheckBoxColumn = new DataGridViewCheckBoxColumn();
             remarkDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             complianceBindingSource = new BindingSource(components);
@@ -57,7 +56,7 @@
             ReminderGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             ReminderGridView.BackgroundColor = SystemColors.ActiveCaptionText;
             ReminderGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            ReminderGridView.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, assessmentDataGridViewTextBoxColumn, frequencyDataGridViewTextBoxColumn, currentDTDataGridViewTextBoxColumn, upComingDTDataGridViewTextBoxColumn, feeDataGridViewTextBoxColumn, reminderSentDataGridViewCheckBoxColumn, remarkDataGridViewTextBoxColumn });
+            ReminderGridView.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, assessmentDataGridViewTextBoxColumn, frequencyDataGridViewTextBoxColumn, currentDTDataGridViewTextBoxColumn, upComingDTDataGridViewTextBoxColumn, reminderSentDataGridViewCheckBoxColumn, remarkDataGridViewTextBoxColumn });
             ReminderGridView.DataSource = complianceBindingSource;
             ReminderGridView.Dock = DockStyle.Fill;
             ReminderGridView.Location = new Point(0, 25);
@@ -94,12 +93,6 @@
             upComingDTDataGridViewTextBoxColumn.DataPropertyName = "UpComingDT";
             upComingDTDataGridViewTextBoxColumn.HeaderText = "UpComingDT";
             upComingDTDataGridViewTextBoxColumn.Name = "upComingDTDataGridViewTextBoxColumn";
-            // 
-            // feeDataGridViewTextBoxColumn
-            // 
-            feeDataGridViewTextBoxColumn.DataPropertyName = "fee";
-            feeDataGridViewTextBoxColumn.HeaderText = "fee";
-            feeDataGridViewTextBoxColumn.Name = "feeDataGridViewTextBoxColumn";
             // 
             // reminderSentDataGridViewCheckBoxColumn
             // 
@@ -169,8 +162,9 @@
             ClientSize = new Size(800, 450);
             Controls.Add(ReminderGridView);
             Controls.Add(toolStrip1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "DataEntryForm";
-            Text = "DataEntryForm";
+            Text = "Safety Reminder";
             ((System.ComponentModel.ISupportInitialize)ReminderGridView).EndInit();
             ((System.ComponentModel.ISupportInitialize)complianceBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
