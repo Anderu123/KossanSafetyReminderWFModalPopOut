@@ -73,6 +73,7 @@ namespace SafetyReminderWF
         {
             if (string.IsNullOrWhiteSpace(txtAssess.Text))
                 throw new InvalidOperationException("Assessment cannot be blank.");
+         
 
             Model.Assessment = txtAssess.Text.Trim();
             Model.Frequency = (int?)(numericUpDown1.Value == 0 ? null : (int)numericUpDown1.Value);

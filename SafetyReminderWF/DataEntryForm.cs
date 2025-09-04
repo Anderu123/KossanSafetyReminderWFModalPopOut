@@ -1,4 +1,5 @@
 using KossanSafetyRemnder;
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel;
 using System.Windows.Forms;
 
@@ -7,6 +8,7 @@ namespace SafetyReminderWF
     public partial class DataEntryForm : Form
     {
         public BindingList<Compliance> _items = new();
+        private readonly AppDbContext _db = new();
         private Compliance? CurrentItem
         {
             get
@@ -26,7 +28,7 @@ namespace SafetyReminderWF
         public DataEntryForm()
         {
             InitializeComponent();
-            _items = new BindingList<Compliance>();
+            //_items = new BindingList<Compliance>();
             ReminderGridView.DataSource = _items;
             ReminderGridView.AutoGenerateColumns = false;
             ReminderGridView.ReadOnly = true;
@@ -36,7 +38,11 @@ namespace SafetyReminderWF
             ReminderGridView.DataError += (s, e) => e.ThrowException = false;
             EnsureCalenderColumns();
             FormatDataColumns();
-            BindData();
+            _db.Compliance.Load();
+            bindingSource1.DataSource = _db.Compliance.Local.ToBindingList();
+            ReminderGridView.DataSource = bindingSource1;
+
+            //BindData();
 
 
 
@@ -120,9 +126,18 @@ namespace SafetyReminderWF
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             using var dlg = new DataEntryEditorForm();
+
+            var entity = dlg.Model;
+            if (entity.Id == Guid.Empty)
+            {
+                entity.Id = Guid.NewGuid();
+            }
+
             if (dlg.ShowDialog(this) == DialogResult.OK)
             {
-                _items.Add(dlg.Model);
+                _db.Compliance.Add(entity);
+                _db.SaveChanges();
+                ReminderGridView.Refresh();
             }
         }
 
@@ -154,7 +169,7 @@ namespace SafetyReminderWF
                 sel.Fee = updated.Fee;
                 sel.ReminderSent = updated.ReminderSent;
                 sel.Remark = updated.Remark;
-
+                _db.SaveChangesAsync();
                 ReminderGridView.Refresh();   // if your model doesn’t raise change notifications
             }
         }
@@ -167,8 +182,12 @@ namespace SafetyReminderWF
             if (MessageBox.Show("Delete this item?", "Confirm",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != DialogResult.Yes)
                 return;
-
-            _items.Remove(sel);
+            if (sel != null && string.IsNullOrEmpty(sel.Assessment))
+            {
+                MessageBox.Show("Select a row to delete."); return;
+            }
+            _db.Compliance.Remove(sel);
+            _db.SaveChanges();
         }
     }
 }

@@ -7,20 +7,48 @@
       "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\dataentryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\dataentryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\dataentryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\dataentryeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\dataentryeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\datagridviewcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\datagridviewcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\dataentryeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\dataentryeditorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\dataentryform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\dataentryform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\safetyreminderwf\\dataentryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\dataentryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\compliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\compliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\dataentryeditorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\dataentryeditorform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\dataentryeditorform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\dataentryeditorform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|c:\\users\\andrew.tan\\desktop\\safetyreminderwf\\safetyreminderwf\\datagridviewcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF341CC-3E9C-4036-968A-55495C58DE2D}|SafetyReminderWF\\SafetyReminderWF.csproj|solutionrelative:safetyreminderwf\\datagridviewcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +66,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataGridViewCalendar.cs",
-              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataGridViewCalendar.cs",
-              "RelativeDocumentMoniker": "SafetyReminderWF\\DataGridViewCalendar.cs",
-              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataGridViewCalendar.cs",
-              "RelativeToolTip": "SafetyReminderWF\\DataGridViewCalendar.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAcwKcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T06:09:37.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Compliance.cs",
-              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\Compliance.cs",
-              "RelativeDocumentMoniker": "SafetyReminderWF\\Compliance.cs",
-              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\Compliance.cs",
-              "RelativeToolTip": "SafetyReminderWF\\Compliance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SafetyReminderWF\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\AppDbContext.cs",
+              "RelativeToolTip": "SafetyReminderWF\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T05:56:37.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataEntryForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryForm.Designer.cs",
-              "RelativeDocumentMoniker": "SafetyReminderWF\\DataEntryForm.Designer.cs",
-              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryForm.Designer.cs",
-              "RelativeToolTip": "SafetyReminderWF\\DataEntryForm.Designer.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAwwIsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T05:55:38.032Z",
+              "WhenOpened": "2025-09-03T07:46:14.128Z",
               "EditorCaption": ""
             },
             {
@@ -83,7 +85,7 @@
               "RelativeDocumentMoniker": "SafetyReminderWF\\DataEntryForm.cs",
               "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryForm.cs",
               "RelativeToolTip": "SafetyReminderWF\\DataEntryForm.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwDQAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAmwL0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-02T05:55:35.22Z",
               "EditorCaption": ""
@@ -91,14 +93,124 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DataEntryEditorForm.cs",
+              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryEditorForm.cs",
+              "RelativeDocumentMoniker": "SafetyReminderWF\\DataEntryEditorForm.cs",
+              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryEditorForm.cs",
+              "RelativeToolTip": "SafetyReminderWF\\DataEntryEditorForm.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowFEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:23:34.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataEntryEditorForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryEditorForm.cs",
+              "RelativeDocumentMoniker": "SafetyReminderWF\\DataEntryEditorForm.cs",
+              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryEditorForm.cs [Design]",
+              "RelativeToolTip": "SafetyReminderWF\\DataEntryEditorForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:23:10.662Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Compliance.cs",
+              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\Compliance.cs",
+              "RelativeDocumentMoniker": "SafetyReminderWF\\Compliance.cs",
+              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\Compliance.cs",
+              "RelativeToolTip": "SafetyReminderWF\\Compliance.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T05:56:37.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataEntryForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryForm.Designer.cs",
+              "RelativeDocumentMoniker": "SafetyReminderWF\\DataEntryForm.Designer.cs",
+              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryForm.Designer.cs",
+              "RelativeToolTip": "SafetyReminderWF\\DataEntryForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T05:55:38.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "SafetyReminderWF\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\AppDbContextFactory.cs",
+              "RelativeToolTip": "SafetyReminderWF\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T09:04:12.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\Program.cs",
+              "RelativeDocumentMoniker": "SafetyReminderWF\\Program.cs",
+              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\Program.cs",
+              "RelativeToolTip": "SafetyReminderWF\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T09:12:59.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DataEntryForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryForm.cs",
               "RelativeDocumentMoniker": "SafetyReminderWF\\DataEntryForm.cs",
               "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryForm.cs [Design]",
               "RelativeToolTip": "SafetyReminderWF\\DataEntryForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T03:48:23.155Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-02T03:48:23.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataEntryEditorForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryEditorForm.Designer.cs",
+              "RelativeDocumentMoniker": "SafetyReminderWF\\DataEntryEditorForm.Designer.cs",
+              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryEditorForm.Designer.cs",
+              "RelativeToolTip": "SafetyReminderWF\\DataEntryEditorForm.Designer.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T08:46:55.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataEntryEditorForm.resx",
+              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryEditorForm.resx",
+              "RelativeDocumentMoniker": "SafetyReminderWF\\DataEntryEditorForm.resx",
+              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataEntryEditorForm.resx",
+              "RelativeToolTip": "SafetyReminderWF\\DataEntryEditorForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-03T00:37:35.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataGridViewCalendar.cs",
+              "DocumentMoniker": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataGridViewCalendar.cs",
+              "RelativeDocumentMoniker": "SafetyReminderWF\\DataGridViewCalendar.cs",
+              "ToolTip": "C:\\Users\\andrew.tan\\Desktop\\SafetyReminderWF\\SafetyReminderWF\\DataGridViewCalendar.cs",
+              "RelativeToolTip": "SafetyReminderWF\\DataGridViewCalendar.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T06:09:37.869Z"
             }
           ]
         }
